@@ -9,7 +9,6 @@ const initialState = {
 const DataReducer = (state, action) => {
   switch (action.type) {
     case "LOCATION":
-      console.log(action.payload);
       return {
         ...state,
         location: action.payload.desiredlocation,
