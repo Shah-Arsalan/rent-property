@@ -1,0 +1,74 @@
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top : 2rem;
+    padding: 2rem;
+    cursor: pointer;
+    position: relative;
+    box-shadow: var(--box-shadow);
+}
+
+.filter-child{
+    border-right: 1px solid black;
+    width: 20%;
+    position: relative;
+  
+}
+ 
+.filter-heading{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.filter-heading:hover{
+  color: var(--primary-color);
+
+}
+
+
+.search-button{
+    border: none;
+}
+
+.radio-filters {
+    position: absolute;
+    background-color: var(--primary-color);
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 2;
+    padding: 1rem;
+    border-radius: 1rem;
+    top: 4rem;
+  }
+
+  .date-filter{
+    position: absolute;
+    left: 13.5rem;
+    top: 4rem;
+  }
+
+  .price-filters{
+    position: absolute;
+    top: 4rem;
+    left: 25rem;
+  }
+
+  .type-filters{
+    position: absolute;
+    top: 4rem;
+    left: 35rem;
+  }
+
+  .radio-filters{
+    color: white;
+  }
+
+  .filter-element{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+  }

@@ -1,0 +1,24 @@
+.nav-container{
+    box-shadow: var(--box-shadow);
+}
+
+.brand-name{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primary-button{
+    color: white;
+}
+
+.primary-button:hover{
+    background-color: var(--hover-color);
+}
+
+
+.secondary-button:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
